@@ -1,0 +1,7 @@
+{
+  "name": "iran-pr",
+  "version": "0.1.0",
+  "description": "بسته روابط عمومی حرفه‌ای بومی ایران — نشست خبری، نمایشگاه و غرفه، رویداد سازمانی، حمایت مالی و بازدید رسانه‌ای، با تقویم، نقشه رسانه‌ای، تشریفات و خطوط قرمز مطابق واقعیت ایران.",
+  "author": { "name": "Reza" },
+  "keywords": ["public-relations", "iran", "press-conference", "exhibition", "events", "sponsorship", "media-visit"]
+}

@@ -2,7 +2,7 @@
   "name": "iran-pr-plugins",
   "description": "پلاگین‌های روابط عمومی حرفه‌ای بومی ایران",
   "owner": { "name": "Reza" },
-  "metadata": { "pluginRoot": "./plugins" },
+  "metadata": { "pluginRoot": "./iran-pr-marketplace/plugins" },
   "plugins": [
     {
       "name": "iran-pr",

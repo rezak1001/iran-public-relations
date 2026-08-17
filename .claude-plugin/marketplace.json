@@ -2,16 +2,13 @@
   "name": "iran-pr-plugins",
   "description": "پلاگین‌های روابط عمومی حرفه‌ای بومی ایران",
   "owner": { "name": "Reza" },
-  "metadata": { "pluginRoot": "./iran-pr-marketplace/plugins" },
   "plugins": [
     {
       "name": "iran-pr",
-      "displayName": "روابط عمومی ایران",
-      "source": "./iran-pr",
+      "source": "./plugins/iran-pr",
       "version": "0.1.0",
       "description": "پنج اسکیل روابط عمومی بومی ایران — نشست خبری، نمایشگاه و غرفه، رویداد سازمانی، حمایت مالی و بازدید رسانه‌ای.",
-      "category": "communications",
-      "tags": ["public-relations", "iran", "press-conference", "exhibition", "events", "sponsorship", "media-visit"]
+      "category": "communications"
     }
   ]
 }

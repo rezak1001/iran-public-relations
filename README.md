@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31109262/README.md)
 # مارکت‌پلیس پلاگین‌های روابط عمومی ایران
 
 این مخزن یک **مارکت‌پلیس پلاگین** برای Claude است. کاربران آدرس این مخزن را یک بار
@@ -7,7 +6,7 @@
 
 ## پلاگین موجود
 
-### `iran-pr` — روابط عمومی ایران
+### `iran-public-relations` — روابط عمومی ایران
 
 پنج اسکیل تخصصی که منطق حرفه‌ای جهانی روابط عمومی را بر بستر واقعیت ایران
 (تقویم و مناسبت‌ها، نقشه رسانه‌ای، مسیرهای تأیید، تشریفات و خطوط قرمز) اجرا
@@ -37,13 +36,13 @@
 https://github.com/rezak1001/iran-public-relations
 ```
 
-۶. پلاگین **iran-pr** را از فهرست نصب کنید
+۶. پلاگین **iran-public-relations** را از فهرست نصب کنید
 
 ### در Claude Code
 
 ```bash
 /plugin marketplace add rezak1001/iran-public-relations
-/plugin install iran-pr@iran-pr-plugins
+/plugin install iran-public-relations@iran-public-relations
 ```
 
 اگر پس از نصب پیام `Run /reload-plugins to activate` دیدید، همان دستور را اجرا
@@ -55,9 +54,9 @@ https://github.com/rezak1001/iran-public-relations
 
 کاربران **نیازی به نصب مجدد ندارند**. برای انتشار نسخه جدید:
 
-۱. تغییرات را در `plugins/iran-pr/` اعمال کنید
+۱. تغییرات را در `plugins/iran-public-relations/` اعمال کنید
 ۲. **شماره نسخه را در هر دو فایل بالا ببرید** — این مرحله حیاتی است:
-   - `plugins/iran-pr/.claude-plugin/plugin.json` → فیلد `version`
+   - `plugins/iran-public-relations/.claude-plugin/plugin.json` → فیلد `version`
    - `.claude-plugin/marketplace.json` → فیلد `version` همان پلاگین
 ۳. تغییرات را push کنید
 
@@ -69,7 +68,7 @@ https://github.com/rezak1001/iran-public-relations
 
 ### افزودن اسکیل جدید
 
-فقط پوشه‌اش را زیر `plugins/iran-pr/skills/` بسازید و نسخه را بالا ببرید. کاربران
+فقط پوشه‌اش را زیر `plugins/iran-public-relations/skills/` بسازید و نسخه را بالا ببرید. کاربران
 هیچ کار جداگانه‌ای نمی‌کنند — اسکیل جدید خودش می‌آید.
 
 ### به‌روزرسانی — برای کاربران
@@ -78,7 +77,7 @@ https://github.com/rezak1001/iran-public-relations
 
 ```bash
 /plugin marketplace update
-/plugin update iran-pr
+/plugin update iran-public-relations
 ```
 
 ---
@@ -90,7 +89,7 @@ https://github.com/rezak1001/iran-public-relations
 ├── .claude-plugin/
 │   └── marketplace.json          ← کاتالوگ مارکت‌پلیس
 └── plugins/
-    └── iran-pr/
+    └── iran-public-relations/
         ├── .claude-plugin/
         │   └── plugin.json       ← مانیفست پلاگین (شماره نسخه اینجاست)
         ├── README.md
@@ -119,8 +118,8 @@ https://github.com/rezak1001/iran-public-relations
 
 ```bash
 for s in iran-exhibition-pr event-planner sponsorship-planner media-visit-planner; do
-  cp plugins/iran-pr/skills/press-conference-planner/shared/*.md \
-     plugins/iran-pr/skills/$s/shared/
+  cp plugins/iran-public-relations/skills/press-conference-planner/shared/*.md \
+     plugins/iran-public-relations/skills/$s/shared/
 done
 ```
 

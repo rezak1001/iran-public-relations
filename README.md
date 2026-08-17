@@ -34,7 +34,7 @@
 ۵. آدرس این مخزن را وارد کنید:
 
 ```
-https://github.com/<نام-کاربری>/iran-pr-marketplace
+https://github.com/rezak1001/iran-public-relations
 ```
 
 ۶. پلاگین **iran-pr** را از فهرست نصب کنید
@@ -42,7 +42,7 @@ https://github.com/<نام-کاربری>/iran-pr-marketplace
 ### در Claude Code
 
 ```bash
-/plugin marketplace add <نام-کاربری>/iran-pr-marketplace
+/plugin marketplace add rezak1001/iran-public-relations
 /plugin install iran-pr@iran-pr-plugins
 ```
 
